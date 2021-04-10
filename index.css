@@ -75,7 +75,7 @@ nav a {
 }
 
 .logo-title:hover {
-  font-size: 1.6rem;
+  color: white;
 }
 
 .logo-subtitle {
@@ -129,6 +129,7 @@ nav a {
 .footer-paragraph,
 .footer-title {
   font-size: 0.8rem;
+  margin: 0;
 }
 
 .footer-title {
@@ -515,24 +516,26 @@ footer {
   background-color: rgba(0, 0, 0, 1);
   position: absolute;
   width: 100%;
-  min-height: 20vh;
-  margin-top: -20vh;
+  min-height: 10vh;
+  margin-top: -10vh;
   text-align: center;
   clear: both;
 }
 
 @media (min-width: 720px) {
   footer {
-    min-height: 10vh;
+    max-height: 10vh;
     margin-top: -10vh;
+    text-align: left;
   }
 }
 
-/* .footer {
+.container-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-} */
+  min-height: 10vh;
+}
 
 .footer-block {
   display: flex;
@@ -540,18 +543,19 @@ footer {
   align-items: center;
 }
 
-/* .fa-github {
-  font-size: 2rem;
-  margin-right: 0.7rem;
-  color: rgba(255, 121, 72, 1);
-} */
-
 .icon {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-right: 0.7rem;
   color: rgba(255, 121, 72, 1);
 }
 
-/* .footer-description {
+.footer-description {
   display: none;
-} */
+}
+
+@media (min-width: 720px) {
+  .footer-description {
+    display: flex;
+    flex-direction: column;
+  }
+}
