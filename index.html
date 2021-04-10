@@ -8,7 +8,7 @@
 	rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 	<link href="index.css" type="text/css" rel="stylesheet" />
-	<script src="index.js"></script>
+	<!-- <script src="index.js"></script> -->
   	<title>My website</title>
 </head>
 
@@ -16,8 +16,10 @@
 	<header>
 		<div class="container">
 			<div class="logo">
-				<h1 class="logo-title">Thiago Evangelista</h1>
-				<p class="logo-subtitle">web developer</p>
+				<a href='index.html'>
+					<h1 class="logo-title">Thiago Evangelista</h1>
+					<p class="logo-subtitle">web developer</p>
+				</a>
 			</div>
 			<nav class="header-navigation-bar">
 				<ul>
@@ -62,24 +64,26 @@
 
 	<footer>
 		<div class='container'>
-			<div>
-				<p class='footer-title'>Email:</p>
-				<p class='footer-paragraph'>thiago.evg@gmail.com</p>
+			<div class='footer-block'>
+				<i class="fas fa-envelope-square icon"></i>
+				<div>
+					<p class='footer-title'>Email:</p>
+					<p class='footer-paragraph'>thiago.evg@gmail.com</p>
+				</div>
 			</div>
-			<div>
-				<p class='footer-title'>LinkedIn:</p>
-				<p class='footer-paragraph'>@thiagoevg</p>
+			<div class='footer-block'>
+				<i class="fab fa-linkedin icon"></i>
+				<div>
+					<p class='footer-title'>LinkedIn:</p>
+					<p class='footer-paragraph'>@thiagoevg</p>
+				</div>
 			</div>
-			<div>
-				<!-- <i class="fab fa-github">
-					<style>
-						.fa-github {
-							color: white;
-						}
-					</style>
-				</i> -->
-				<p class='footer-title'>Github:</p>
-				<p class='footer-paragraph'>@thiagoevg</p>
+			<div class='footer-block'>
+				<i class="fab fa-github-square icon"></i>
+				<div>
+					<p class='footer-title'>Github:</p>
+					<p class='footer-paragraph'>@thiagoevg</p>
+				</div>
 			</div>
 		</div>
 	</footer>

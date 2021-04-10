@@ -74,6 +74,10 @@ nav a {
   margin: 0;
 }
 
+.logo-title:hover {
+  font-size: 1.6rem;
+}
+
 .logo-subtitle {
   margin: 0;
   font-size: 1rem;
@@ -204,6 +208,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
 }
 
 .logo-image {
@@ -518,3 +527,31 @@ footer {
     margin-top: -10vh;
   }
 }
+
+/* .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.footer-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .fa-github {
+  font-size: 2rem;
+  margin-right: 0.7rem;
+  color: rgba(255, 121, 72, 1);
+} */
+
+.icon {
+  font-size: 2rem;
+  margin-right: 0.7rem;
+  color: rgba(255, 121, 72, 1);
+}
+
+/* .footer-description {
+  display: none;
+} */
